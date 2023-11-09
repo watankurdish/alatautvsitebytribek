@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+/*Шрифты
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+*/
+/*Общие свойтсва*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: -1;
+    }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    font-weight: bolder;
+}
+
+.space_right {
+    margin-right: 2em;
+}
+
+.auto-width-height {
+    width: auto;
+    height: auto;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(148, 148, 148); 
+}
+
+/*Меню сайта*/
+.menu {
+    background-color: #f5f5f5;
+    padding: 1em 200em;
+    display: flex;
+    box-shadow: 0px 0px 12px #afafaf;
+    z-index: 5;
+    max-height: 2em;
+    margin-top: -2em;
+}
+
+.logo {
+    max-width: 2.5em;
+    max-height: 2.5em;
+    right: 88%;
+    top: 12px;
+}
+
+.image-position {
+    margin-top: -0.2em;
+}
+
+.links {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo, .links {
+    margin: auto 0px 0em -300em;
+}
+
+.links>a, .main-content-in-footer a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+a.livestream {
+    color: rgb(255, 86, 86);
+}
+
+a.livestream:hover {
+    text-decoration: none;
+    color: red;
+}
+/*регулировка тегa*/
+nav {
+    max-height: 34.3em;
+}
+body {
+    overflow-y: hidden;
+}
+
+/*История телеканала*/
+.content {
+    padding: 2em;
+    margin: 2em;
+}
+
+.text {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+    z-index: 2;
+    padding-top: 3.5em;
+    margin-left: 10em;
+    bottom: 2.2em;
+}
+
+.logo-in-text {
+    position: relative;
+    bottom: 56em;
+    opacity: 0.2;
+}
+/*Подвал сайта*/
+.information {
+    position: relative;
+    display: flex;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 12px #afafaf;
+    z-index: 4;
+    padding: 2.61em 2em;
+    max-height: 14em;
+    top: 0.8em;
+}
+
+.main-content-in-footer {
+    color: #808080;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.9px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: justify;
+    white-space: pre;
+    margin: -6em 0em 0em 0em;
+    display: block;
+    max-width: 10em;
+    max-height: 50em;
+}
+
+.address {
+    margin: 2em 5em;
+}
+
+.tel {
+    margin: -7.35em 0em 0em 30em;
+}
+
+.mail-and-youtube-link {
+    margin: -6.63em 0em 0em 55em;
+}
+
+.copyright {
+    margin: -6.63em 0em 0em 75em;
+}
+
+.site:hover {
+    text-decoration: underline;
+}
